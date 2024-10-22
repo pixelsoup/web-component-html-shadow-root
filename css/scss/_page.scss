@@ -1,6 +1,5 @@
 .pageHeadingWrapper {
-  padding-left: 20px;
-
+  margin-block-end: 20px;
   *+* {
     margin-top: 5px;
   }
@@ -8,7 +7,7 @@
 
 .pageHeading {
   font-size: 30px;
-  margin-block: 20px;
+  margin-block: 20px 0;
 }
 
 .pageHeadingList {
