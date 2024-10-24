@@ -6,7 +6,7 @@ class ScaryMary extends HTMLElement {
       // Create a style element
       const style = document.createElement('link');
       style.setAttribute('rel', 'stylesheet');
-      style.setAttribute('href', './css/shadowdom.css');
+      style.setAttribute('href', '/scary-mary/scary-mary.css');
 
       // Create the main wrapper div
       const wrapper = document.createElement('div');
