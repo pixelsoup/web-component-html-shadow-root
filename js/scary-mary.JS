@@ -1,5 +1,5 @@
 // Create template content
-const template = document.createElement("template");
+const template = document.createElement("template")
 template.innerHTML = /* html */ `
   <link rel="stylesheet" href="./css/shadowdom.css">
   <div class="scaryDomWrapper">
@@ -19,18 +19,18 @@ template.innerHTML = /* html */ `
     </div>
     <slot></slot>
   </div>
-`;
+`
 
-class ImotorComponent extends HTMLElement {
+class ScaryMary extends HTMLElement {
   constructor() {
-      super();
+      super()
       // Optionally, you can attach a shadow root or initialize properties here
-      const shadow = this.attachShadow({ mode: 'open' });
+      const shadow = this.attachShadow({ mode: 'open' })
 
       // Append template content
-      shadow.appendChild(template.content.cloneNode(true));
+      shadow.appendChild(template.content.cloneNode(true))
   }
 }
 
 // Define the custom element
-customElements.define('imotor-component', ImotorComponent);
+customElements.define('scary-mary', ScaryMary)

@@ -1,4 +1,4 @@
-class ImotorComponent extends HTMLElement {
+class ScaryMary extends HTMLElement {
   constructor() {
       super();
       const shadow = this.attachShadow({ mode: 'open' });
@@ -50,4 +50,4 @@ class ImotorComponent extends HTMLElement {
 }
 
 // Define the custom element
-customElements.define('imotor-component', ImotorComponent);
+customElements.define('scary-mary', ScaryMary);
